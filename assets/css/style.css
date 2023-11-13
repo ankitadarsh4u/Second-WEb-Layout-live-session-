@@ -159,7 +159,50 @@ footer ul li{
     font-weight: 500;
 }
 
-
-
-
 /* footer section ends */
+
+/* Media Queries Start */
+
+@media screen and (max-width:991px) {
+    .tophead ,footer{
+        height: auto;
+        padding: 10px;
+    }
+    .tophead ul li{
+        display: block;
+        
+    }
+    header ,nav{
+        padding:0px 10px ;
+        text-align: center;
+        
+    }
+    section{
+        
+        padding: 0px 0px 0px 10px ;
+        
+    }
+  
+}
+@media screen and(max-width:767px) {
+    section main ,section aside{
+        float: none;
+        width: 100%;
+        pad: 0px;
+    }
+    footer .link ,footer .follow,footer .copy{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and(max-width:575px) {
+    header{
+        line-height:normal;
+    }
+    header h1,header h3{
+         display: block;
+        
+    }
+}
+/* Media Queries End */
