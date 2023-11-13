@@ -83,12 +83,12 @@ nav ul li a:hover{
 /* content section starts */
 section{
     width: 100%;
-    padding: 0px 100px;
+    padding: 0px 80px;
 }
 
 section main{
     width: 80%;
-    float: left;
+    float: right;
     padding-top: 20px;
 
 }
@@ -107,22 +107,24 @@ section main h2{
 
 
 section aside{
-    border-radius: 30px;
+    
     width: 20%;
-    float: right;
-    background-color: #bbd4bb;
+    height: auto;
+    float: left;
+    background-color: #fff;
     padding: 20px 15px;
+   
 }
 
 aside ul li{
     font-weight: 600;
     list-style: none;
+    color: rgb(172, 48, 48);
+    margin-top: 5px;
+    
 }
 
-aside ul li ul li{
-    font-weight: normal;
-    padding-left: 20px;
-}
+
 /* content section ends */
 
 /* footer section starts */
@@ -149,6 +151,12 @@ footer .copy{
     width: 40%;
     float: right;
     
+}
+footer ul li{
+    list-style: none;
+    margin-top: 5px;
+    color:rgb(172, 116, 96);
+    font-weight: 500;
 }
 
 
